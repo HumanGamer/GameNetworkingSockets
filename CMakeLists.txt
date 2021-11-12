@@ -53,7 +53,7 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
 endif()
 
 option(LTO "Enable Link-Time Optimization" OFF)
-option(USE_STEAMWEBRTC "Build Google's WebRTC library to get ICE support for P2P" OFF)
+option(USE_STEAMWEBRTC "Build Google's WebRTC library to get ICE support for P2P" ON)
 option(GAMENETWORKINGSOCKETS_BUILD_EXAMPLES "Build the included example chat program" ON)
 option(GAMENETWORKINGSOCKETS_BUILD_TESTS "Build crypto, pki and network connection tests" ON)
 
